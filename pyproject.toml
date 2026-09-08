@@ -14,4 +14,4 @@ build-backend = "hatchling.build"
 packages = ["timing_logs"]
 
 [project.scripts]
-timing-logs = "cli.timing_logs_cli:main"
+timing-logs = "timing_logs.timing_logs_cli:main"
