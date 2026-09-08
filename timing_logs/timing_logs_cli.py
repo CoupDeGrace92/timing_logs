@@ -2,7 +2,7 @@ import argparse
 import pickle
 from pathlib import Path
 
-from timing_logs import timed_events
+from data_structures import timed_events
 
 
 def load_tracker(path: str) -> timed_events:
